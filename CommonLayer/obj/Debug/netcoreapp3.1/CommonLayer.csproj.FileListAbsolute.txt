@@ -1,0 +1,10 @@
+V:\bridgeLabz\CFP\CodeWrkDir\EmployeeTest01\CommonLayer\bin\Debug\netcoreapp3.1\CommonLayer.deps.json
+V:\bridgeLabz\CFP\CodeWrkDir\EmployeeTest01\CommonLayer\bin\Debug\netcoreapp3.1\CommonLayer.dll
+V:\bridgeLabz\CFP\CodeWrkDir\EmployeeTest01\CommonLayer\bin\Debug\netcoreapp3.1\CommonLayer.pdb
+V:\bridgeLabz\CFP\CodeWrkDir\EmployeeTest01\CommonLayer\obj\Debug\netcoreapp3.1\CommonLayer.csproj.AssemblyReference.cache
+V:\bridgeLabz\CFP\CodeWrkDir\EmployeeTest01\CommonLayer\obj\Debug\netcoreapp3.1\CommonLayer.GeneratedMSBuildEditorConfig.editorconfig
+V:\bridgeLabz\CFP\CodeWrkDir\EmployeeTest01\CommonLayer\obj\Debug\netcoreapp3.1\CommonLayer.AssemblyInfoInputs.cache
+V:\bridgeLabz\CFP\CodeWrkDir\EmployeeTest01\CommonLayer\obj\Debug\netcoreapp3.1\CommonLayer.AssemblyInfo.cs
+V:\bridgeLabz\CFP\CodeWrkDir\EmployeeTest01\CommonLayer\obj\Debug\netcoreapp3.1\CommonLayer.csproj.CoreCompileInputs.cache
+V:\bridgeLabz\CFP\CodeWrkDir\EmployeeTest01\CommonLayer\obj\Debug\netcoreapp3.1\CommonLayer.dll
+V:\bridgeLabz\CFP\CodeWrkDir\EmployeeTest01\CommonLayer\obj\Debug\netcoreapp3.1\CommonLayer.pdb

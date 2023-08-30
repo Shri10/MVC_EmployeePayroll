@@ -1,0 +1,13 @@
+V:\bridgeLabz\CFP\CodeWrkDir\EmployeeTest01\RepositoryLayer\bin\Debug\netcoreapp3.1\RepositoryLayer.deps.json
+V:\bridgeLabz\CFP\CodeWrkDir\EmployeeTest01\RepositoryLayer\bin\Debug\netcoreapp3.1\RepositoryLayer.dll
+V:\bridgeLabz\CFP\CodeWrkDir\EmployeeTest01\RepositoryLayer\bin\Debug\netcoreapp3.1\RepositoryLayer.pdb
+V:\bridgeLabz\CFP\CodeWrkDir\EmployeeTest01\RepositoryLayer\bin\Debug\netcoreapp3.1\CommonLayer.dll
+V:\bridgeLabz\CFP\CodeWrkDir\EmployeeTest01\RepositoryLayer\bin\Debug\netcoreapp3.1\CommonLayer.pdb
+V:\bridgeLabz\CFP\CodeWrkDir\EmployeeTest01\RepositoryLayer\obj\Debug\netcoreapp3.1\RepositoryLayer.csproj.AssemblyReference.cache
+V:\bridgeLabz\CFP\CodeWrkDir\EmployeeTest01\RepositoryLayer\obj\Debug\netcoreapp3.1\RepositoryLayer.GeneratedMSBuildEditorConfig.editorconfig
+V:\bridgeLabz\CFP\CodeWrkDir\EmployeeTest01\RepositoryLayer\obj\Debug\netcoreapp3.1\RepositoryLayer.AssemblyInfoInputs.cache
+V:\bridgeLabz\CFP\CodeWrkDir\EmployeeTest01\RepositoryLayer\obj\Debug\netcoreapp3.1\RepositoryLayer.AssemblyInfo.cs
+V:\bridgeLabz\CFP\CodeWrkDir\EmployeeTest01\RepositoryLayer\obj\Debug\netcoreapp3.1\RepositoryLayer.csproj.CoreCompileInputs.cache
+V:\bridgeLabz\CFP\CodeWrkDir\EmployeeTest01\RepositoryLayer\obj\Debug\netcoreapp3.1\RepositoryLayer.csproj.CopyComplete
+V:\bridgeLabz\CFP\CodeWrkDir\EmployeeTest01\RepositoryLayer\obj\Debug\netcoreapp3.1\RepositoryLayer.dll
+V:\bridgeLabz\CFP\CodeWrkDir\EmployeeTest01\RepositoryLayer\obj\Debug\netcoreapp3.1\RepositoryLayer.pdb

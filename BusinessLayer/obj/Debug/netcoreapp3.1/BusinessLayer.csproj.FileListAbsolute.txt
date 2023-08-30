@@ -1,0 +1,15 @@
+V:\bridgeLabz\CFP\CodeWrkDir\EmployeeTest01\BusinessLayer\bin\Debug\netcoreapp3.1\BusinessLayer.deps.json
+V:\bridgeLabz\CFP\CodeWrkDir\EmployeeTest01\BusinessLayer\bin\Debug\netcoreapp3.1\BusinessLayer.dll
+V:\bridgeLabz\CFP\CodeWrkDir\EmployeeTest01\BusinessLayer\bin\Debug\netcoreapp3.1\BusinessLayer.pdb
+V:\bridgeLabz\CFP\CodeWrkDir\EmployeeTest01\BusinessLayer\bin\Debug\netcoreapp3.1\CommonLayer.dll
+V:\bridgeLabz\CFP\CodeWrkDir\EmployeeTest01\BusinessLayer\bin\Debug\netcoreapp3.1\RepositoryLayer.dll
+V:\bridgeLabz\CFP\CodeWrkDir\EmployeeTest01\BusinessLayer\bin\Debug\netcoreapp3.1\CommonLayer.pdb
+V:\bridgeLabz\CFP\CodeWrkDir\EmployeeTest01\BusinessLayer\bin\Debug\netcoreapp3.1\RepositoryLayer.pdb
+V:\bridgeLabz\CFP\CodeWrkDir\EmployeeTest01\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.csproj.AssemblyReference.cache
+V:\bridgeLabz\CFP\CodeWrkDir\EmployeeTest01\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+V:\bridgeLabz\CFP\CodeWrkDir\EmployeeTest01\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.AssemblyInfoInputs.cache
+V:\bridgeLabz\CFP\CodeWrkDir\EmployeeTest01\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.AssemblyInfo.cs
+V:\bridgeLabz\CFP\CodeWrkDir\EmployeeTest01\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.csproj.CoreCompileInputs.cache
+V:\bridgeLabz\CFP\CodeWrkDir\EmployeeTest01\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.csproj.CopyComplete
+V:\bridgeLabz\CFP\CodeWrkDir\EmployeeTest01\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.dll
+V:\bridgeLabz\CFP\CodeWrkDir\EmployeeTest01\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.pdb

@@ -1,0 +1,114 @@
+﻿@using CommonLayer;
+@model CommonLayer.Employee
+
+@{
+    ViewData["Title"] = "DeletePrompt";
+}
+
+<h1>Delete an Employee Permanantly</h1>
+
+<h4>Employee</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="DeletePrompt">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="EmployeeID" class="control-label"></label>
+                <input asp-for="EmployeeID" class="form-control" readonly />  @*ADDED  THIS*@
+                <span asp-validation-for="EmployeeID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EmployeeName" class="control-label"></label>
+                <input asp-for="EmployeeName" class="form-control" readonly />
+                <span asp-validation-for="EmployeeName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ProfileImg" class="control-label"></label>
+                <input asp-for="ProfileImg" class="form-control" readonly />
+                <span asp-validation-for="ProfileImg" class="text-danger"></span>
+            </div>
+
+            @*GENDER- new*@
+            <div class="form-group">
+                <label class="control-label">Gender</label>
+                <div>
+                    <label><input type="radio" asp-for="Gender" value="M" /> Male</label>
+                    <label><input type="radio" asp-for="Gender" value="F" /> Female</label>
+                    <label><input type="radio" asp-for="Gender" value="O" /> Other</label>
+                </div>
+                <span asp-validation-for="Gender" class="text-danger"></span>
+            </div>
+
+            @*GENDER - old*@
+            @*<div class="form-group">
+                <label asp-for="Gender" class="control-label"></label>
+                <input asp-for="Gender" class="form-control" />
+                <span asp-validation-for="Gender" class="text-danger"></span>
+            </div>*@
+
+            <div class="form-group">
+                <label asp-for="Department" class="control-label"></label>
+                @Html.DropDownListFor(m => m.EmployeeDepartment,
+                new SelectList(Enum.GetValues(typeof(Department))),
+                "Select Department")
+                <span asp-validation-for="Department" class="text-danger"></span>
+            </div>
+
+            @*<div class="form-group">
+            <label asp-for="Department" class="control-label"></label>
+            <input asp-for="Department" class="form-control" />
+            <span asp-validation-for="Department" class="text-danger"></span>
+            </div>*@
+            <div class="form-group">
+                <label asp-for="Salary" class="control-label"></label>
+                <input asp-for="Salary" class="form-control" readonly />
+                <span asp-validation-for="Salary" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StartDate" class="control-label"></label>
+                <input asp-for="StartDate" class="form-control" readonly />
+                <span asp-validation-for="StartDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Notes" class="control-label"></label>
+                <input asp-for="Notes" class="form-control" readonly />
+                <span asp-validation-for="Notes" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                @*<div class="alert alert-warning">*@
+                <div class="alert alert-danger">
+                    This is an irreversible action. Are you sure you want to continue?
+                </div>
+            </div>
+
+            <div class="form-group">
+                <a asp-action="Edit" asp-route-id="@Model.EmployeeID" class="btn btn-warning">Edit This Employee</a>
+                <br />
+                <a asp-action="Details" asp-route-id="@Model.EmployeeID" class="btn btn-info">Show Details Of This Employee</a>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="btn btn-danger">DELETE</button>
+                @*<input type="submit" value="DELETE" class="btn btn-primary" />*@
+            </div>
+            @*@Html.ActionLink("Edit", "Edit", new { id=item.EmployeeID }) |*@
+            @*<div class="form-group">
+                <button type="edit" class="btn btn-secondary">Edit This</button>*@
+                @*<input type="submit" value="DELETE" class="btn btn-primary" />*@
+            @*</div>*@
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@*<div>
+    <a asp-action="Edit">Edit this</a>
+</div>*@
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

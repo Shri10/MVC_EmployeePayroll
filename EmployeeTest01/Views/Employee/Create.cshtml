@@ -1,0 +1,128 @@
+﻿@using CommonLayer;
+@model CommonLayer.Employee
+
+@{
+    ViewData["Title"] = "Create";
+}
+@*<head>*@
+    @*<link rel="stylesheet" type="text/css" href="~/path_to_your_css_file.css">*@
+    @*<link rel="stylesheet" type="text/css" href="~/css/styles.css">*@
+    @*<link rel="stylesheet" type="text/css" href="~/css/DarkGradient.css">*@
+    @*<link rel="stylesheet" href="~/css/site.css" />*@
+    @*V:\bridgeLabz\CFP\CodeWrkDir\EmployeeTest01\EmployeeTest01\wwwroot\css\DarkGradient.css*@
+
+@*</head>*@
+@section Styles {
+    <link rel="stylesheet" type="text/css" href="~/css/DarkGradient.css">
+}
+
+
+<h1>Create</h1>
+
+<h4>Employee</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            @*<div class="form-group">
+                <label asp-for="EmployeeID" class="control-label"></label>
+                <input asp-for="EmployeeID" class="form-control" />
+                <span asp-validation-for="EmployeeID" class="text-danger"></span>
+            </div>*@
+            <div class="form-group">
+                <label asp-for="EmployeeName" class="control-label"></label>
+                <input asp-for="EmployeeName" class="form-control" />
+                <span asp-validation-for="EmployeeName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ProfileImg" class="control-label"></label>
+                <input asp-for="ProfileImg" class="form-control" />
+                <span asp-validation-for="ProfileImg" class="text-danger"></span>
+            </div>
+
+            @*GENDER- new*@
+            <div class="form-group">
+                <label class="control-label">Gender</label>
+                <div>
+                    <label><input type="radio" asp-for="Gender" value="M" /> Male</label>
+                    <label><input type="radio" asp-for="Gender" value="F" /> Female</label>
+                    <label><input type="radio" asp-for="Gender" value="O" /> Other</label>
+                </div>
+                <span asp-validation-for="Gender" class="text-danger"></span>
+            </div>
+
+            @*GENDER - old*@
+            @*<div class="form-group">
+                <label asp-for="Gender" class="control-label"></label>
+                <input asp-for="Gender" class="form-control" />
+                <span asp-validation-for="Gender" class="text-danger"></span>
+            </div>*@
+
+
+            @*@model CommonLayer.Employee*@
+            <div class="form-group">
+                <label asp-for="Department" class="control-label"></label>
+                @Html.DropDownListFor(m => m.EmployeeDepartment,
+                new SelectList(Enum.GetValues(typeof(Department))),
+                "Select Department")
+                <span asp-validation-for="Department" class="text-danger"></span>
+            </div>
+
+
+            @*@Html.DropDownListFor(m => m.EmployeeDepartment,
+            new SelectList(Enum.GetValues(typeof(Department))),
+            "Select Department")*@
+
+            @*@Html.DropDownListFor(m => m.EmployeeDepartment,
+            new SelectList(Enum.GetValues(typeof(Department))),
+            "Select Department")*@
+
+            @*@Html.DropDownList("Department", (IEnumerable<SelectListItem>)ViewBag.Departments, "Select Department", new { @class = "form-control" })*@
+
+
+
+            @*<div class="form-group">
+                <label asp-for="Department" class="control-label"></label>
+                <input asp-for="Department" class="form-control" />
+                <span asp-validation-for="Department" class="text-danger"></span>
+            </div>*@
+            <div class="form-group">
+                <label asp-for="Salary" class="control-label"></label>
+                <input asp-for="Salary" class="form-control" />
+                <span asp-validation-for="Salary" class="text-danger"></span>
+            </div>
+
+            @*DATETIME- new*@
+            <div class="form-group">
+                <label asp-for="StartDate" class="control-label"></label>
+                <input asp-for="StartDate" class="form-control" type="date" />
+                <span asp-validation-for="StartDate" class="text-danger"></span>
+            </div>
+
+            @*DATETIME - old*@
+            @*<div class="form-group">
+                <label asp-for="StartDate" class="control-label"></label>
+                <input asp-for="StartDate" class="form-control" />
+                <span asp-validation-for="StartDate" class="text-danger"></span>
+            </div>*@
+
+            <div class="form-group">
+                <label asp-for="Notes" class="control-label"></label>
+                <input asp-for="Notes" class="form-control" />
+                <span asp-validation-for="Notes" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
